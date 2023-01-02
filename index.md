@@ -23,4 +23,4 @@ tags:
 Logo: 
 ![alt text][logo]
 
-[logo]: /images/logo.png
+[logo]: /images/whoami.png
