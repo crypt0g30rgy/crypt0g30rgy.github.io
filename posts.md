@@ -6,4 +6,4 @@ I will try my best to keep this page updated as i venture more and more into Cyb
 This blog should not be used as a measure of my success or even your own. Many details may be omitted here due to NDA and other issues, however you can use this blog 
 as a reference to something like a methodology or approach.
 
-[First Bug/Bounty](https://github.com/crypt0g30rgy/crypt0g30rgy.github.io/blob/main/post/My%20First%20Bug.md) 
+[First Bug/Bounty](https://crypt0g30rgy.github.io/post/My%20First%20Bug) 
