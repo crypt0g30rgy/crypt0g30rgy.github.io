@@ -15,7 +15,7 @@ tags:
 - 💞️ I’m looking to collaborate with some of the hacking greatest minds in the future.
 - 📫 You can hit me up via twitter/linkedin 
 
-## [Posts](https://crypt0g30rgy.github.io/posts) 
+# [Posts](https://crypt0g30rgy.github.io/posts) 
 
 ## Contacts
 
