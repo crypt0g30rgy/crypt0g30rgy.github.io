@@ -7,6 +7,8 @@ This blog should not be used as a measure of my success or even your own. Many d
 as a reference to something like a methodology or approach.
 
 [Why Jij0.me domains](https://crypt0g30rgy.github.io/post/why)
-[Authbypass via Exposed creds](https://crypt0g30rgy.github.io/post/why)
+
+[Authbypass via Exposed creds](https://crypt0g30rgy.github.io/post/AuthBypass)
+
 [First Bug/Bounty](https://crypt0g30rgy.github.io/post/My%20First%20Bug) 
 
