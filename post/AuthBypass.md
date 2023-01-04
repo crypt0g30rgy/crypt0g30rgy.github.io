@@ -13,7 +13,7 @@ tags:
 So it was on one of those days, i was feeling bored and kinda alone. When i feel like this i usually divulge into some hacking `(to fill that void😃)`
 So off i went to [Intigriti](https://app.intigriti.com/researcher) and i saw that a program i followed had an update `(funny story was i didn't recall having followed the program but i may have as well did, i get forgetful sometimes)`
 
-After checking out the program lets call it jij0 [why](/posts/why), i found that they had *.jij0.me on scope and they were rewarding bounties for it, upto €1500 for an exceptional bug.
+After checking out the program lets call it jij0 [why](/post/why), i found that they had *.jij0.me on scope and they were rewarding bounties for it, upto €1500 for an exceptional bug.
 
 So i said why not, up to this point the highest severity i ever got for my bug was high `(3 times)` via payment bypass `(Write-ups below)` or [Home](/).  
 
