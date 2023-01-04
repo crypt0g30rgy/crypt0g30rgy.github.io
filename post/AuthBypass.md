@@ -46,9 +46,9 @@ I was in and i could see so much information that was clearly not intended for t
 1. Headed to <https://chat.jij0.me/js/index.js>
 2. Searched and found the NODE_ENV values
 3. Visited <https://admin.jij0.me> to see 401 error
-No add the creds chatmeup:ontwitter0x01! with chatmeup as the username & ontwitter0x01! the password
-4. Now i have access to a lot of data data
-5. I stopped testing at this point. But i believed an attacker can leverage this to escalate further.
+4. Now add the creds chatmeup:ontwitter0x01! with chatmeup as the username & ontwitter0x01! the password
+6. Now i have access to a lot of data data
+7. I stopped testing at this point. But i believed an attacker can leverage this to escalate further.
 
 ## Report
 
