@@ -6,4 +6,7 @@ I will try my best to keep this page updated as i venture more and more into Cyb
 This blog should not be used as a measure of my success or even your own. Many details may be omitted here due to NDA and other issues, however you can use this blog 
 as a reference to something like a methodology or approach.
 
+[Why Jij0.me domains](https://crypt0g30rgy.github.io/post/why)
+[Authbypass via Exposed creds](https://crypt0g30rgy.github.io/post/why)
 [First Bug/Bounty](https://crypt0g30rgy.github.io/post/My%20First%20Bug) 
+
