@@ -31,6 +31,7 @@ Since i new the backend was written under NODEJS i started searching for the NOD
 
 After seing this i remember visiting <https://admin.jij0.me> which resulted in a 401 unauthorized error. To test the validity of the auth basic creds i requested the <https://admin.jij0.me/favicon.ico> which had previously returned a 401 error and this time i got a 200 OK
 
+Sent the below request with burp.
 ```bash
 GET /favicon.ico
 HOST: admin.jij0.me
