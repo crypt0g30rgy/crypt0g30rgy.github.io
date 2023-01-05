@@ -8,6 +8,8 @@ tags:
   - first exceptional bug
 ---
 
+# Owning half of a government assets through AWS
+
 ## How we got there
 
 So it was on one evening, i was looking at targets at intigriti that had wide scope, `(and offered some compensation to hackers for the time invested)`.
@@ -108,3 +110,7 @@ After waiting for five days it got accepted, no bonus/bounty for this or even a 
 `As of today the domain is not responding and the keys were added 2FA.`
 
 ![basic](/images/awsbug.png)
+
+## Contacts
+
+### @[github](https://github.com/crypt0g30rgy)		@[twitter](https://twitter.com/crypt0g30rgy)	@[LinkedIn](https://www.linkedin.com/in/george-maina-waithaka-95a465214/)   @[Intigriti](https://app.intigriti.com/profile/g30rgyth3d4rk) @[hackerone_old](https://hackerone.com/crypt0p3n3tr4t0r?type=user)
