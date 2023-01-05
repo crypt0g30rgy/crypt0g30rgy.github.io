@@ -10,5 +10,7 @@ as a reference to something like a methodology or approach.
 
 [Authbypass via Exposed creds](https://crypt0g30rgy.github.io/post/AuthBypass)
 
+[AWSTakeover](https://crypt0g30rgy.github.io/post/AWSTakeover)
+
 [First Bug/Bounty](https://crypt0g30rgy.github.io/post/My%20First%20Bug) 
 
