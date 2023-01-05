@@ -12,7 +12,7 @@ tags:
 
 So it was on one evening, i was looking at targets at intigriti that had wide scope, `(and offered some compensation to hackers for the time invested)`.
 
-I landed on a good government based bug bounty, `that claimed to offer a bonus to hackers`. Lets call the target jij0 [why](/posts/why) it had a scope of *.jij0.me
+I landed on a good government based bug bounty, `that claimed to offer a bonus to hackers`. Lets call the target jij0 [why](/post/why) it had a scope of *.jij0.me
 
 I went a head to my Parrot Sec VM and ran [findomain](https://github.com/Findomain/Findomain) tool for gathering subdomains. I got 700+ subdomains, ran [httprobe by tomnomnom](https://github.com/tomnomnom/httprobe). It narrowed down the alive subdomains to several hundreds. I ran a simple script that i created with the help of chatgpt that sorts urls based on response types i.e 2XX, 3XX, 4XX etc and saves the to a folder called codes with corresponding url in the corresponding  file i.e 200 OK will be save to `codes/2XX.txt`
 
@@ -20,7 +20,7 @@ Find the tool on my github [https://github.com/crypt0g30rgy/Urls-Sorter](https:/
 
 I started visiting all the 302 urls in my browser, because more than 75%  of the target redirected to an sso provider i.e visiting admin.jij0.me would redirect me to sso.jij0.me.
 
-I observed that most of the domains were made using JavaScript Frameworks under Nodejs. As i showed earlier in my previous post ([AuthBypass](/posts/AuthBypass)) if devs are not careful these frameworks can expose the web app to attacks like [PHP EAR Vulnerability](https://owasp.org/www-community/attacks/Execution_After_Redirect_(EAR)). So if a developer assumes that they are protected by the SSO and adds secrets to the Web app public config because no one will see the web app under SSo `(Oh!! How Wrong they can be)`
+I observed that most of the domains were made using JavaScript Frameworks under Nodejs. As i showed earlier in my previous post ([AuthBypass](/post/AuthBypass)) if devs are not careful these frameworks can expose the web app to attacks like [PHP EAR Vulnerability](https://owasp.org/www-community/attacks/Execution_After_Redirect_(EAR)). So if a developer assumes that they are protected by the SSO and adds secrets to the Web app public config because no one will see the web app under SSo `(Oh!! How Wrong they can be)`
 
 As i was visiting the domains i would do `view-source:{domain}` and record my config findings in a config.txt file. I found a lot of api keys for their internal apis but they all seemed to be secured, so i decided to get every possible config variable first till i had visited all domains.
 
