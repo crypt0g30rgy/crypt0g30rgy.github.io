@@ -8,6 +8,8 @@ tags:
   - first critical bug
 ---
 
+# Auth Bypass Via Exposed Credentials
+
 ## How we got there
 
 So it was on one of those days, i was feeling bored and kinda alone. When i feel like this i usually divulge into some hacking `(to fill that void😃)`
@@ -64,3 +66,7 @@ So i wrote up a detailed report fast and sent it to the program at intigriti. Th
 After waiting for two days i recieved a €700 bounty.
 
 ![basic](/images/basic.png)
+
+## Contacts
+
+### @[github](https://github.com/crypt0g30rgy)		@[twitter](https://twitter.com/crypt0g30rgy)	@[LinkedIn](https://www.linkedin.com/in/george-maina-waithaka-95a465214/)   @[Intigriti](https://app.intigriti.com/profile/g30rgyth3d4rk) @[hackerone_old](https://hackerone.com/crypt0p3n3tr4t0r?type=user)
