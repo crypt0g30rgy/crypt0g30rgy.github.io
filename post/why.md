@@ -19,3 +19,7 @@ Jij0 is a nickname i was given by a very close best friend of mine. Since then i
 `(Special thanks sharry💕 for the sweet nickname 😇)`
 
 ![sharry💕](/images/sharry.png)
+
+## Contacts
+
+### @[github](https://github.com/crypt0g30rgy)		@[twitter](https://twitter.com/crypt0g30rgy)	@[LinkedIn](https://www.linkedin.com/in/george-maina-waithaka-95a465214/)   @[Intigriti](https://app.intigriti.com/profile/g30rgyth3d4rk) @[hackerone_old](https://hackerone.com/crypt0p3n3tr4t0r?type=user)
