@@ -12,7 +12,7 @@ tags:
 
 So it was on one evening, i was looking at targets at intigriti that had wide scope, `(and offered some compensation to hackers for the time invested)`.
 
-I landed on a good government based bug bounty, `that claimed to offer a bonus to hackers`. Lets call the target jij0 [why](/posts/why) it had a scope of *.jij0.me
+I landed on a good government based bug bounty, `that claimed to offer a bonus to hackers`. Lets call the target jij0 [why](/post/why) it had a scope of *.jij0.me
 
 I went a head to my Parrot Sec VM and ran [findomain](https://github.com/Findomain/Findomain) tool for gathering subdomains. I got 700+ subdomains, ran [httprobe by tomnomnom](https://github.com/tomnomnom/httprobe). It narrowed down the alive subdomains to several hundreds. I ran a simple script that i created with the help of chatgpt that sorts urls based on response types i.e 2XX, 3XX, 4XX etc and saves the to a folder called codes with corresponding url in the corresponding  file i.e 200 OK will be save to `codes/2XX.txt`
 
