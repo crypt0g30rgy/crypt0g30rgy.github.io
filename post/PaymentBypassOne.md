@@ -27,8 +27,8 @@ This process contains a flow like;
 3. get taken to cart -> fill in all the details -> Verify info -> Select payment (QR code) -> get qr code -> scan qr to payment
 4. Open burp and intercept request with the payment info "POST /rest/Payment/v1/status?" and json data {"paymentData": "DATAAAA"}
 5. Select burps do intercept response option.
-6. Intercept response which should contain a json parmeter with {"payload": "","resultCode":"pending","type":"complete"}
-.Change the response from {"payload": "","resultCode":"pending","type":"complete"} to {"payload": "","resultCode":"complete","type":"complete"}
+6. Intercept response which should contain a json parmeter with `{"payload": "","resultCode":"pending","type":"complete"}
+.Change the response from {"payload": "","resultCode":"pending","type":"complete"}` to `{"payload": "","resultCode":"complete","type":"complete"}`
 7. Now you should recieve a green check to show payment complete and get redirected to
 8. After several minutes you should recieve email confirmation of your purchase.
 
