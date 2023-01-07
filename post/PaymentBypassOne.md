@@ -16,7 +16,7 @@ A story of a bug i found through QR code Response Manipulation.
 
 I was scrolling my [twitter](https://twitter.com/crypt0g30rgy) feed when i can across a [tweet](https://twitter.com/intigriti/status/1467111453945733139) from [@intigriti](https://twitter.com/intigriti) about paywall bypass, and i remembered i had a target that had payment bypass inscope.
 
-I went a head and visted the program jij0 [(why)](/posts/why). jij0 had a website offering an option to buy e-giftcards. <https://jij0.be/nl/jij0-gift> that would redirect you to <https://gifts.jij0.be>
+I went a head and visted the program jij0 [(why)](/post/why). jij0 had a website offering an option to buy e-giftcards. <https://jij0.be/nl/jij0-gift> that would redirect you to <https://gifts.jij0.be>
 This process contains a flow like;
 > select gift card -> get taken to cart -> fill in all the details -> Verify info -> Select payment (By QR Code) -> get qr code -> scan qr to pay (Vulnerable area)
 
