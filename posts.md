@@ -12,5 +12,11 @@ as a reference to something like a methodology or approach.
 
 [AWSTakeover](https://crypt0g30rgy.github.io/post/AWSTakeover)
 
+[PaymentBypassOne](https://crypt0g30rgy.github.io/post/PaymentBypassOne)
+
+[PaymentBypassTwo](https://crypt0g30rgy.github.io/post/PaymentBypassTwo)
+
+[PaymentBypassThree](https://crypt0g30rgy.github.io/post/PaymentBypassThree)
+
 [First Bug/Bounty](https://crypt0g30rgy.github.io/post/My%20First%20Bug) 
 
