@@ -25,7 +25,7 @@ This process contains a flow like;
 1. Visit <https://gifts.jij0.be>
 2. Select a gift card
 3. get taken to cart -> fill in all the details -> Verify info -> Select payment (QR code) -> get qr code -> scan qr to payment
-4. Open burp and intercept request with the payment info "POST /rest/Payment/v1/status?" and json data {"paymentData": "DATAAAA"}
+4. Open burp and intercept request with the payment info `"POST /rest/Payment/v1/status?"` and json data `{"paymentData": "DATAAAA"}`
 5. Select burps do intercept response option.
 6. Intercept response which should contain a json parmeter with `{"payload": "","resultCode":"pending","type":"complete"}
 .Change the response from {"payload": "","resultCode":"pending","type":"complete"}` to `{"payload": "","resultCode":"complete","type":"complete"}`
