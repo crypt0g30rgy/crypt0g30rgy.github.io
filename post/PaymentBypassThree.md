@@ -8,6 +8,8 @@ tags:
   - payment bypass two
 ---
 
+# The Bug That Kept On Giving :: PaymentBypass :: Eposed Return Url
+
 ## How we got there
 
 A story of the second bug i found after my Initial payment bypass via the [QR CODE](/post/PaymentBypassOne).
@@ -28,11 +30,11 @@ and empty body
 5. Select burps do intercept response option.
 6. Intercept response which should contain a json parmeter with
 
-`{"Response":[{"IssuerTransaction":{"uuid":"[uuid]","created":"[time stamp]","updated":"time stamp","name":"jij0","description":"1291","amount":{"currency":"USD","value":"13.37"},"status":"CREATED","transaction_id":"[id]","purchase_id":"[alphanumeric id]","return_url":"https://shop.jij0.be/complete.shtml?sessionId=id&pspEchoData=[data]&ec=[data]","qr":{"qr_data":"[base64 image data]","qr_content_type":"image/png"}}}]}`
+`{"Response":[{"IssuerTransaction":{"uuid":"[uuid]","created":"[time stamp]","updated":"time stamp","name":"jij0","description":"1291","amount":{"currency":"USD","value":"13.37"},"status":"CREATED","transaction_id":"[id]","purchase_id":"[alphanumeric id]","return_url":"https://gifts.jij0.be/complete.shtml?sessionId=id&pspEchoData=[data]&ec=[data]","qr":{"qr_data":"[base64 image data]","qr_content_type":"image/png"}}}]}`
 
 7. Extract return_url
 
-`["return_url":"https://shop.jij0.be/complete.shtml?sessionId=id&pspEchoData=[data]"]`
+`["return_url":"https://gifts.jij0.be/complete.shtml?sessionId=id&pspEchoData=[data]"]`
 
 8. Now you should recieve a green check to show payment complete
 9. After several minutes you should recieve email confirmation of your purchase
