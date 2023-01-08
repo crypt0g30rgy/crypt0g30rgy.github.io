@@ -19,6 +19,16 @@ It was the same program jij0 [(why)](/post/why). jij0 had a website offering an 
 This process contains a flow like;
 select ticket -> get taken to cart -> fill in all the details -> Verify info -> Select payment (QR Code) -> get qr code -> scan qr to pay (Vulnerable area)
 
+The issue that arised and caused this bug was that the server lacked validation and relied on the return url that when the payment provider would use when the payment was successful.
+The backend didn't validate this url to make sure that the order has been paid.
+
+The issues were as follows;
+1. gifts.jij0.me didn't validate that we indeed have paid the order.
+2. The payment provider returned the onSuccess payment redirect url, in the json response `not an issue for the payment provider `
+3. gifts.jij0.me relied on this returned url to validate successful payment.
+
+> The best option here would be using webhooks to validate orders have been paid.
+
 ## Reproduction steps
 
 1. Visit gifts.jij0.be
