@@ -17,6 +17,8 @@ tags:
 
 # [Posts](https://crypt0g30rgy.github.io/posts) 
 
+# [CTF/LABS WriteUPs](https://crypt0g30rgy.github.io/labs)
+
 ## Contacts
 
 ### @[github](https://github.com/crypt0g30rgy)		@[twitter](https://twitter.com/crypt0g30rgy)	@[LinkedIn](https://www.linkedin.com/in/george-maina-waithaka-95a465214/)   @[Intigriti](https://app.intigriti.com/profile/g30rgyth3d4rk) @[hackerone_old](https://hackerone.com/crypt0p3n3tr4t0r?type=user)
