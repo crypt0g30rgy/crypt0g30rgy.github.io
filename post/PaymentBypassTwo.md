@@ -3,7 +3,7 @@ title: 'The Bug That Kept On Giving :: PaymentBypass :: Response Manipulation'
 metaTitle: 'payment bypass'
 metaDesc: 'dev@jijo:~$paid'
 socialImage: images/paymentbypass1.png
-date: '2022-16-12'
+date: '2022-12-16'
 tags:
   - payment bypass two
 ---
