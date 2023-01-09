@@ -15,6 +15,56 @@ A story of the third bug i found after the one for [QR CODE](/post/PaymentBypass
 It was the same program jij0 [(why)](/post/why). jij0 had a website offering an option to buy e-giftcards. <https://jij0.be/jij0-gift> that would redirect you to <https://gifts.jij0.be>
 
 This payment bypass is brought by the reliance of JavaSript to validate transactions.
+
+```Javascript
+function makePayment(data) {
+            data['paymentMethod'] = $('.checkout__payment').html();
+            $.ajax({
+                method: "POST",
+                url: "/v1/Payment",
+                data: {paymentData: data},
+                dataType: "JSON",
+                success: function(response) {
+                },
+                error: function () {
+                    alert('Ooops...');
+                }
+            }).then(action => {
+                if (action == "Authorised") {
+                    dropin.setStatus("success")
+                    $.ajax({
+                        method: "POST",
+                        url: "/v1/HandleResponse",
+                        data: {responseData: action},
+                        dataType: "JSON",
+                        success: function(response) {
+                            window.location = response;
+                        },
+                        error: function (response) {
+                            window.location = response;
+                        }
+                    });
+                } else if (action == "Refused" || action == "Error") {
+                    dropin.setStatus("error");
+                    $.ajax({
+                        method: "POST",
+                        url: "/v1/HandleResponse",
+                        data: {responseData: action},
+                        dataType: "JSON",
+                        success: function(response) {
+                            window.location = response;
+                        },
+                        error: function (response) {
+                            window.location = response;
+                        }
+                    });
+```
+
+
+if you read and analyze the above code you would find the vulnerability easy as i eventually did; 
+
+> In the above snippet the developer assummed that server responses should be trusted, because a user had no control over what response the server would return but using a tool like burpsuite we can manipulate even server responses hence we would be able to control `action == & .setStatus` 
+
 The one is handled by gifts.jij0.be following the below procedure;
 
 item added to cart == user info filled and goes to checkout == user select pay with card == user enters card == transaction performed == gifts.jij0.be checks server responses {The issue lies here} == User either get redirected to cart if transaction failed or confirmation page if transaction is successful
