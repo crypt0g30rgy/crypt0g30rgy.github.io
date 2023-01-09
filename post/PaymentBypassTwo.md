@@ -8,6 +8,8 @@ tags:
   - payment bypass two
 ---
 
+# The Bug That Kept On Giving :: PaymentBypass :: Response Manipulation
+
 ## How we got there
 
 A story of the third bug i found after the one for [QR CODE](/post/PaymentBypassOne) And the Next [Exposed Return URL](/post/PaymentBypassThree)
