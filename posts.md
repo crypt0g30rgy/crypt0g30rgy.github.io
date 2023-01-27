@@ -18,5 +18,9 @@ as a reference to something like a methodology or approach.
 
 [PaymentBypassThree](https://crypt0g30rgy.github.io/post/PaymentBypassThree)
 
+[SSRFtoDos](https://crypt0g30rgy.github.io/post/SSRFtoDos)
+
+[The-Samaritan-Badge](https://crypt0g30rgy.github.io/post/The-Samaritan-Badge)
+
 [First Bug/Bounty](https://crypt0g30rgy.github.io/post/My%20First%20Bug) 
 
