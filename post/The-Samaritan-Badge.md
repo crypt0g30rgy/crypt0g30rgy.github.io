@@ -8,6 +8,8 @@ tags:
   - first
 ---
 
+# The Samaritan Badge
+
 ## The Bug
 
 Hello Reader, Hope you are doing well. Today we will be going through my first report on a VDP.
@@ -30,6 +32,8 @@ The issue can be reproduced by;
 Visiting the following urls <https://stat.home.jij0.me/TL/_vti_bin/spsdisco.aspx> && <https://stat.home.jij0.me/iMASAuditLogs/Audit_Log_2013-12-29T180000.xlsx>
 
 I made a report and sent it to the program and it got accepted as a medium.
+
+I got my samaritan h1 badge.
 
 ![basic](/images/triage.png)
 
