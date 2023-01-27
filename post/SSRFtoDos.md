@@ -8,6 +8,8 @@ tags:
   - dupe ssrf bug
 ---
 
+# The SSRF that Brought down a Server
+
 ## How we got there
 
 Server-Side Request Forgery (SSRF) is a type of web vulnerability that allows an attacker to send a malicious request from a vulnerable server to another server or network service. The attack is performed by manipulating a server-side script to send a request to a different server or service, which can be controlled by the attacker.
@@ -60,6 +62,8 @@ I decided to continue only to see the sdame error, i read the stack trace on the
 At this point i knew i f*ed up, i started wishing that it was only the proxy endpoints, but as we all know wishes are always just wishes, and if they were horses bergars would ride. I opened up the root of the website in my browser and would you know it, JDBC error everywhere, so i know now for sure i have f**ed. I even thought that the issue affected only my network, so i tested on other IPs and devices and i realised that the server was down for everyone.
 
 I started to tense up as hell, i didn't know how the program would react.
+
+![basic](/images/dos.png)
 
 ## Report
 
