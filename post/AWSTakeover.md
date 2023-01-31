@@ -109,6 +109,8 @@ After waiting for five days it got accepted, no bonus/bounty for this or even a 
 
 `As of today the domain is not responding and the keys were added 2FA.`
 
+> On Jan 31, i got awarded a bonus. Turns out they found this blog, how, i still have no idea, i guess if the government wants to find something they will, hehe.
+
 ![basic](/images/awsbug.png)
 
 ## Contacts
